@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <style>
+            canvas {
+                background: #fff;
+                border: 1px solid black;
+                margin: auto;
+                display: block;cursor: none;
+            }
+        </style>
+    </head>
+    <body>
+        <p id="pos"></p>
+        <canvas id="c" width="700" height="500"></canvas>
+        <img src="img/point.png" id="point">
+        <img src="/img/tile.png" id="ftile">
+        <img src="/img/player.png" id="player">
+        <script src="/js/build.js"></script>
+        <script>
+            onload = gameMaker.init;
+        </script>
+    </body>
+</html>

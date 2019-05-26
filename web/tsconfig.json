@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "watch": true,
+    "target": "es5",
+    "allowJs": true,
+    "strict": true,
+    "outFile": "./js/build.js",
+    "module": "amd",
+    "esModuleInterop": true
+  },
+  "include": [
+    "./ts/**/*"
+  ]
+}
